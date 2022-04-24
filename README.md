@@ -1,5 +1,5 @@
-##Demo project for troubleshooting of blocked threads
-###The approach of research by means of collecting of thread dumps is shown in this project.
+## Demo project for troubleshooting of blocked threads
+### The approach of research by means of collecting of thread dumps is shown in this project.
 
 To use the approach we need to run our application and find the corresponding java-task.
 1. Open cmd.exe and run `tasklist /fi "imagename eq java.exe"`
@@ -15,7 +15,7 @@ To use the approach we need to run our application and find the corresponding ja
 
 3. After capturing we can analyze the reason.
 
-###Additional technic to troubleshoot the thread dumps
+### Additional technic to troubleshoot the thread dumps
 - Java Mission Control
 - Java Flight Recorder
 - Microbenchmarks in Java with JHM
